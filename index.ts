@@ -4,8 +4,8 @@ function create_matrix(
   number_of_row: number
 ): any {
   let arr: (string | number)[] = str.split("");
-  let column: number = number_of_column;
-  let row: number = number_of_row;
+  let column = number_of_column;
+  let row = number_of_row;
 
   // the first for loop handles the number of rows created
   for (let i = 0; i < row; i++) {
